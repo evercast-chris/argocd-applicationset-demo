@@ -26,7 +26,7 @@ spec:
        path: examples/list-generator/guestbook/{{cluster}}
      destination:
        server: '{{url}}'
-       namespace: argocd
+       namespace: guestbook-ns
      syncPolicy:
        automated:
         prune: true
