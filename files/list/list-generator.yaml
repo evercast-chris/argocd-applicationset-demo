@@ -19,7 +19,7 @@ spec:
          project: default
  template:
    metadata:
-     name: '{{cluster}}-guestbook'
+     name: 'app-{{cluster}}-guestbook'
    spec:
      project: default
      source:
