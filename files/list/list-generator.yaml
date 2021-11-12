@@ -28,7 +28,7 @@ spec:
        path: examples/list-generator/guestbook/{{cluster}}
      destination:
        server: '{{url}}'
-       namespace: guestbook-ns-test
+       namespace: guestbook-test-app
      syncPolicy:
        automated:
         prune: true
